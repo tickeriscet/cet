@@ -30,3 +30,13 @@ body, html {
 button {
     font-weight: bold;
 }
+
+#content h1, #content h2 {
+    margin: 10px 0; /* Adjusts spacing around the headings */
+}
+
+#content h2 {
+    font-size: larger; /* Makes $CET larger or adjust as needed */
+    font-weight: bold; /* Optional: Makes $CET bold */
+}
+

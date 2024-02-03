@@ -31,12 +31,13 @@ button {
     font-weight: bold;
 }
 
-#content h1, #content h2 {
-    margin: 10px 0; /* Adjusts spacing around the headings */
+#content h1 {
+    font-size: 5em; /* Makes "$CET" significantly larger */
+    margin-bottom: 0; /* Reduces space between the "$CET" and the next line */
 }
 
-#content h2 {
-    font-size: larger; /* Makes $CET larger or adjust as needed */
-    font-weight: bold; /* Optional: Makes $CET bold */
+h2 {
+    font-size: 3em; /* Adjusts the size for the tagline to be slightly smaller than "$CET" but still larger than default */
+    margin-top: 0; /* Removes additional space at the top, making it closer to "$CET" */
 }
 
